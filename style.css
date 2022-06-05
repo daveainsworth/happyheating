@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+
+.home {
+    background-image: url(./media/boiler-repair-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: #000;
+}
+
+.services img {
+    height: 350px;
+}
+
+.line {
+    height: 3px;
+    width: 20vw;
+    background-color: rgba(2, 46, 143, 0.8);
+    /* Move the Line to be centered */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+footer {
+    background-color: rgb(1, 36, 112);
+}
+
+/* RESPONSIVE CSS */
+@media only screen and (max-width: 600px) {
+
+    nav img{
+        width: 150px;
+    }
+  }
